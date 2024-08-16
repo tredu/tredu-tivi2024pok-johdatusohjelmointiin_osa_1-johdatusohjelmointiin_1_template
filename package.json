@@ -1,0 +1,17 @@
+{
+  "name": "johdatusohjelmointiin_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tehtava_1.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
