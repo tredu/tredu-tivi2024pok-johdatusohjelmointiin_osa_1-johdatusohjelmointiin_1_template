@@ -1,29 +1,27 @@
 /* 
 
-Tehtävä 1: Tilikauden tulos
+Tehtävä 1: Tuumat senteiksi
 
-Tee funktio, joka saa kaksi lukua parametrina tuotto (income) ja kulut (expences) ja laskee 
-tilikauden tuloksen ja ilmoittaa, onko se voittoa vai tappiota. Tulos lasketaan kaavalla tuotto – kulut. 
-jos vastaus on negatiivinen, tilikausi on tappiollinen, muuten se on voitollinen. Testaa ohjelmaa eri 
-arvoilla ja tulosta vastaus konsolille muodossa:
+Tee funktion, joka muuntaa annetut tuumat senttimetreiksi ja ilmoittaa vastauksen muodossa:
+   
+    ___ tuumaa on ___ senttimetriä 
 
-    Tulot: ___€ 
-    Menot: ___€
-    Tilikauden tulos: ___€ tappiota
+Testaa funktiota usealla lukuparilla.
 
-Aja koodi terminaalissa usealla lukuparilla.
+Vinkki: 1 tuuma = 2.54 cm
 
-node tehtava_1.js
+Aja koodi terminaalissa:
+node t1.js
 
 */
 
-function revenue(income, expences){
+function inchToCm(inch){
     // lisää koodia tähän
 }
 
 // täydennä koodia:
-console.log(revenue());
+console.log(inchToCm());
 
 
 // Älä koske tähän:
-module.exports = revenue;
+module.exports = inchToCm;

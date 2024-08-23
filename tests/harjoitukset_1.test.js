@@ -66,7 +66,7 @@ describe('areaOfTriangle', () => {
     test('areaOfTriangle: laskee pinta-alan oikein', () => {
         expect(areaOfTriangle(2, 4)).toBe(4)
         expect(areaOfTriangle(1, 45)).toBe(22.5)
-        expect(areaOfTriangle(10.1, 3.5)).toBe(18.4)
+        expect(areaOfTriangle(10.1, 3.5)).toBe(17.7)
         expect(areaOfTriangle(0, 0)).toBe(0)
         expect(areaOfTriangle(5.55, 4.53)).toBe(12.6)
     });
@@ -94,7 +94,7 @@ describe('division', () => {
 
     test('division: check input', () => {
         expect(division()).toBe("check input")
-        expect(didivisionvide(3)).toBe("check input")
+        expect(division(3)).toBe("check input")
         expect(division("kissa")).toBe("check input")
     });
 })
@@ -103,8 +103,8 @@ describe('division', () => {
 describe('convertCurrency', () => {
     test('convertCurrency: valuuttamuunnos suoritetaan oikein', () => {
         expect(convertCurrency(10, "YEN")).toBe("¥1087.5")
-        expect(convertCurrency(10, "USD")).toBe("$5.85")
-        expect(convertCurrency(10, "GBP")).toBe("£7.58")
+        expect(convertCurrency(10, "GBP")).toBe("$5.85")
+        expect(convertCurrency(10, "USD")).toBe("£7.58")
     });
 
     test('convertCurrency: check input', () => {
@@ -133,7 +133,7 @@ describe('taxiFare', () => {
 /* 9 */
 describe('colorRobot', () => {
     test('colorRobot: tulkitsee värit oikein', () => {
-        expect(colorRobot(344)).toBe("violetti")
+        expect(colorRobot(384)).toBe("violetti")
         expect(colorRobot(456)).toBe("sininen")
         expect(colorRobot(496)).toBe("vihreä")
         expect(colorRobot(578)).toBe("keltainen")
