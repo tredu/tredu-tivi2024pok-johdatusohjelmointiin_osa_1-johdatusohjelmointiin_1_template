@@ -12,8 +12,8 @@ const putInOrder = require('../Harjoitukset_2/t10');
 /* 1 */
 describe('inchToCm', () => {
     test('inchToCm: muuntaa tuumat oikein', () => {
-        expect(inchToCm(6)).toBe("6 tuumaa on 14.4 senttimetriä");
-        expect(inchToCm(8.5)).toBe("6 tuumaa on 20.4 senttimetriä");
+        expect(inchToCm(6)).toBe("6 tuumaa on 15.2 senttimetriä");
+        expect(inchToCm(8.5)).toBe("8.5 tuumaa on 21.6 senttimetriä");
     });
 })
 
