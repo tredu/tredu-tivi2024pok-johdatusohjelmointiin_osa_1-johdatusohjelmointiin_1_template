@@ -9,7 +9,7 @@ Tee toinen funktio, joka käyttää muuntofunktiota, ja joka tulostaa lähtöarv
     
     ___°C on ___°F 
 
-Testaa funktiota vähintään kolmella eri arvolla. 
+Testaa funktiota vähintään kolmella eri arvolla. Pyöristä vastaus yhden desimaalin tarkkuuteen.
 
 Aja koodi terminaalissa:
 node t7.js

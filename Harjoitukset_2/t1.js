@@ -6,7 +6,7 @@ Tee funktion, joka muuntaa annetut tuumat senttimetreiksi ja ilmoittaa vastaukse
    
     ___ tuumaa on ___ senttimetriä 
 
-Testaa funktiota usealla lukuparilla.
+Testaa funktiota usealla lukuparilla. Pyöristä vastaus yhden desimaalin tarkkuuteen.
 
 Vinkki: 1 tuuma = 2.54 cm
 
