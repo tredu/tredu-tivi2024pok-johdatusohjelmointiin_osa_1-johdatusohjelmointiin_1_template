@@ -7,7 +7,11 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test1": "jest ./tests/harjoitukset_1.test.js",
+    "test2": "jest ./tests/harjoitukset_2.test.js",
+    "test4": "jest ./tests/harjoitukset_3.test.js",
+    "test5": "jest ./tests/harjoitukset_4.test.js"
   },
   "author": "",
   "license": "ISC",
