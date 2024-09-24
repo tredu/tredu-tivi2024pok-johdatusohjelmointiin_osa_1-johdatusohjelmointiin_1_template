@@ -80,8 +80,8 @@ describe('lottery', () => {
     test('lottery: palauttaa 7 arvottua numeroa taulukkomuodossa', () => {
         let result = lottery()
         expect(result.length).toBe(7);
-        expect(result.max()).toBe(40);
-        expect(result.min()).toBe(1);
+        expect(result.max()).toBeLessThanOrEqual(40);
+        expect(result.min()).toBeGreaterThanOrEqual(1);
         expect(result.reduce((acc,x)=>acc && (typeof x == 'number'),true)).toBe(true);
 })})
 
