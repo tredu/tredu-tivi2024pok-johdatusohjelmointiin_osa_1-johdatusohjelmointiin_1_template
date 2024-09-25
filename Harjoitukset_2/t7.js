@@ -29,4 +29,4 @@ console.log(celsiusToFahrenheit());
 
 
 // Älä koske tähän:
-module.exports = celsiusToFahrenheit;
+module.exports = {celsiusToFahrenheit,convertToFahrenheit};
