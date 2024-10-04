@@ -101,14 +101,14 @@ describe('longestTask', () => {
 describe('contactInfo', () => {
     test('contactInfo: tulostaa oikein yhteystiedot', () => {
         expect(contactInfo(contact1)).toBe(`nimi: Aku Ankka\nikä: 33\npuh: 01012312312\nemail: aku.ankka@ankkalinna.com\n`)
-        expect(contactInfo(contact2)).toBe(`nimi: Minni Hiiri\nikä: 25\npuh: 04034523442\nemail: minni.hiiri@ankkalinna.com\n`)
+        expect(contactInfo(contact2)).toBe(`nimi: Minni Hiiri\nikä: 25\npuh: 0403452344\nemail: minni.hiiri@ankkalinna.com\n`)
 })})
 
 /* 8 */
 describe('contactInfoAll', () => {
     test('contactInfoAll: tulostaa oikein yhteystietolistan', () => {
         expect(contactInfoAll([contact1,contact2])).toBe(`nimi: Aku Ankka\nikä: 33\npuh: 01012312312\nemail: aku.ankka@ankkalinna.com\n\nnimi: Minni Hiiri\nikä: 25\npuh: 04034523442\nemail: minni.hiiri@ankkalinna.com\n`)
-        expect(contactInfoAll([contact2,contact1,contact3])).toBe(`nimi: Minni Hiiri\nikä: 25\npuh: 04034523442\nemail: minni.hiiri@ankkalinna.com\n\nnimi: Aku Ankka\nikä: 33\npuh: 01012312312\nemail: aku.ankka@ankkalinna.com\n\nnimi: Hessu Hopo\nikä: 36\npuh: 123123123\nemail: hessu.hopo@ankkalinna.com\n\n`)
+        expect(contactInfoAll([contact2,contact1,contact3])).toBe(`nimi: Minni Hiiri\nikä: 25\npuh: 0403452344\nemail: minni.hiiri@ankkalinna.com\n\nnimi: Aku Ankka\nikä: 33\npuh: 01012312312\nemail: aku.ankka@ankkalinna.com\n\nnimi: Hessu Hopo\nikä: 36\npuh: 123123123\nemail: hessu.hopo@ankkalinna.com\n\n`)
     })})
 
 /* 9 */
