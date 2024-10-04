@@ -65,8 +65,8 @@ describe('listWithFor', () => {
 /* 2 */ 
 describe('modifyList', () => {
     test('modifyList: palauttaa muokatun taulukon oikein', () => {
-        expect(modifyList(inputList1)).toEqual(outputArray1)
-        expect(modifyList(inputList2)).toEqual(outputArray2)
+        expect(modifyList(inputList1, "hanki työpaikka")).toEqual(outputArray1)
+        expect(modifyList(inputList2, "karkkia")).toEqual(outputArray2)
 })})
 
 /* 3 */ 
