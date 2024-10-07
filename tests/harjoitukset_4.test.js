@@ -121,7 +121,7 @@ describe('fullTeams', () => {
 /* 10 */
 describe('greetings', () => {
     test('greetings: tervehtii käyttäjää oikein', () => {
-        expect(greetings(timestamps1)).toBe(`Päivää!\nTänään on keskiviikko 21.8.2024 ja kello on 16:26:00\nHuomenta!\nTänään on tiistai 20.8.2024 ja kello on 9:10:00\nIltaa!\nTänään on perjantai 23.8.2024 ja kello on 22:19:00\nHyvää yötä!\nTänään on sunnuntai 25.8.2024 ja kello on 4:34:00\n`)
-        expect(greetings(timestamps2)).toBe(`Huomenta!\nTänään on tiistai 20.8.2024 ja kello on 9:10:00\nIltaa!\nTänään on perjantai 23.8.2024 ja kello on 22:19:00\nHyvää yötä!\nTänään on sunnuntai 25.8.2024 ja kello on 04:34:00\nPäivää!\nTänään on keskiviikko 21.8.2024 ja kello on 16:26:00\n`)
+        expect(greetings(timestamps1)).toBe(`Päivää!\nTänään on keskiviikko 21.8.2024 ja kello on 16:26:00\nHuomenta!\nTänään on tiistai 20.8.2024 ja kello on 9:10:00\nHyvää yötä!\nTänään on perjantai 23.8.2024 ja kello on 22:19:00\nHyvää yötä!\nTänään on sunnuntai 25.8.2024 ja kello on 4:34:00\n`)
+        expect(greetings(timestamps2)).toBe(`Huomenta!\nTänään on tiistai 20.8.2024 ja kello on 9:10:00\nHyvää yötä!\nTänään on perjantai 23.8.2024 ja kello on 22:19:00\nHyvää yötä!\nTänään on sunnuntai 25.8.2024 ja kello on 4:34:00\nPäivää!\nTänään on keskiviikko 21.8.2024 ja kello on 16:26:00\n`)
     })})
    
