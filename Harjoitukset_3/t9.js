@@ -10,7 +10,7 @@ ei tarvitse ottaa huomioon tehtävässä). Käytä while-silmukkaa.
 Esimerkkitulostus:
     [3, 10, 14, 23, 9, 1, 16]
 
-Vinkki: Tee ensin tyhjä taulukko, ja lisää siihen arvottu luku append-metodilla.
+Vinkki: Tee ensin tyhjä taulukko, ja lisää siihen arvottu luku push-metodilla.
 
 Aja koodi terminaalissa:
 node t9.js
