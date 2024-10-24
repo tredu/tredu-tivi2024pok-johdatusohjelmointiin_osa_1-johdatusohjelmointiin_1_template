@@ -13,6 +13,7 @@ node tehtava_1.js
 
 function sayHello(name){
     // lisää koodia tähän
+    
 }
 
 // täydennä koodia:
